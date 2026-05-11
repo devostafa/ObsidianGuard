@@ -9,3 +9,8 @@ To keep the C++ codebase clean, readable, and consistent, all developers should 
 2. **Functions** must use `camelCase`, starting with a lowercase letter, for example `loadData()` or `calculateScore()`.
 3. **Variables** must also use `camelCase`, starting with a lowercase letter, such as `userCount`, `filePath`, or `totalScore`.
 4. This applies to both local variables and member variables. Consistency in these rules is required across the entire codebase to ensure clarity and maintainability.
+
+
+# Authors
+- [Mostafa Maher](https://github.com/devostafa)
+- [Vuk Amizic](https://github.com/Amizic)
