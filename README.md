@@ -1,3 +1,6 @@
+# ObsidianGuard
+ObsidianGuard is a quantum-resistant, post-quantum cryptography library for secure digital interactions.
+
 ## Naming Conventions
 
 To keep the C++ codebase clean, readable, and consistent, all developers should follow a simple naming style throughout the project.
