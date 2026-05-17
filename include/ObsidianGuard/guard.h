@@ -18,9 +18,9 @@ public:
   int Decapsulate(const QKey &keyPair, uint8_t *cipherText,
                   uint8_t *sharedSecret);
 
-  void EncryptFile(const std::string &filepath,
+  void EncryptFile(const std::string &filePath,
                    const std::vector<uint8_t> &key);
 
-  void DecryptFile(const std::string &filepath,
+  void DecryptFile(const std::string &filePath,
                    const std::vector<uint8_t> &key);
 };
