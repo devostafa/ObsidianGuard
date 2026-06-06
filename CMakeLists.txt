@@ -14,9 +14,7 @@ add_library(obsidian_guard SHARED src/guard.cpp)
 include(GenerateExportHeader)
 generate_export_header(obsidian_guard)
 
-target_include_directories(obsidian_guard PRIVATE src/*)
-
 target_include_directories(obsidian_guard PUBLIC 
-    ${CMAKE_CURRENT_SOURCE_DIR}/include 
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
     ${CMAKE_CURRENT_BINARY_DIR}
 )

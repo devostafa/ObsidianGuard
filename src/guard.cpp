@@ -3,6 +3,3 @@
 Guard::Guard() {}
 
 Guard::~Guard() {}
-
-
-
