@@ -9,7 +9,9 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_library(obsidian_guard SHARED src/guard.cpp)
+find_package(OpenSSL REQUIRED)
+
+add_library(obsidian_guard STATIC src/guard.cpp)
 
 include(GenerateExportHeader)
 generate_export_header(obsidian_guard)
